@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Najjar's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="dodown.css">
+    <script>function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+      
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+      
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      } 
+      window.addEventListener("scroll", reveal);
+      </script>
+</head>
+<body>
+    <section>
+        <h1>Ahmed Najjar's html,css,javascript Portfolio &#8595;</h1>
+      </section>
+      <section>
+        <div class="container reveal">
+          <h2>Html</h2>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>what is Html</h3>
+              <p>
+                HTML stands for Hyper Text Markup Language
+                HTML is the standard markup language for creating Web pages
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>What it does</h3>
+              <p>
+                HTML describes the structure of a Web page
+                HTML consists of a series of elements
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>How int works</h3>
+              <p>
+                HTML elements tell the browser how to display the content
+                HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="container reveal">
+          <a href="csspage.html"><h2>Css</h2></a>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>It's an Acronym</h3>
+              <p>
+                CSS stands for Cascading Style Sheets
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>What id does</h3>
+              <p>
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>How it works</h3>
+              <p>
+                External stylesheets are stored in CSS files
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="container reveal">
+          <h2>javascript</h2>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>Section Text</h3>
+              <p>
+                JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Section Text</h3>
+              <p>
+                Check out my first hosted Site :<a target="_blank" href="https://ryan-gosling0.github.io/lamp/">lamp.com</a> 
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Coming soon</h3>
+              <p onclick="alert('Please come back later')">Coming soon click to Check
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

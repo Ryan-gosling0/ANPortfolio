@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What i learned in Css</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="pagecss.css">
+</head>
+<body>
+    <center><h1 class="anawin">What I learned in Css</h1></center>
+    <h2 class="anawin">basics:</h2>
+    <p>*<span>class or id</span>{You should use a class if you need to use the same selector more than once within a page or a site. While an ID is specific to a single element, classes can be assigned to multiple elements on a page or throughout the website. They are not unique}</p>
+    <p>*<span>span</span> (wrap sections of text for styling purposes or for adding attributes to a section of text without creating a new line of content.</p>
+    <p>*<span>import url</span>(The @import CSS at-rule is used to import style rules from other valid stylesheets)</p>
+    <p>*<span>box-shwadow </span> (The box-shadow property enables you to cast a drop shadow from the frame of almost any element. If a border-radius is specified on the element with a box shadow, the box shadow takes on the same rounded corners.)</p>
+    <p>*<span>box-sizing</span>  (allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now! Hooray)</p>
+    <p>*<span>overflow</span> (The CSS overflow property controls what happens to content that is too big to fit into an area. This text is really long and the height of its container is only 100 pixels.)</p>
+    <p>*<span>The opacity-level</span>( describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent. Note: When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well.)</p>
+    <p>*<span>position: relative;</span> (is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.)</p>
+    <p>*<span>transform </span>(allows you to rotate, scale,█ move, skew, etc., elements.)</p>
+    <img id="png1" src="D.png" alt="erre">
+    <h2 class="anawin">Must do's:</h2>
+    <p>body{<br>
+    ㅤㅤmargin: 0;<br>
+    ㅤㅤpadding: 0;<br>
+    ㅤㅤoverflow: hidden;<br>
+    ㅤㅤbackground: linear-gradient(218deg, #121122 1px, #4070f4 800px);<br>
+    }</p>
+    <h2 class="anawin">positioning:</h2>
+<containor id="sybna">  
+    <section id="posStatic">
+        <h1 id="ok">position : Static ;</h1>
+        <p class="R">Red</p>
+        <p class="G">Green</p>
+        <p class="R">Red</p>
+        <p class="R">Red</p></section>
+    <section id="posRelative">
+        <h1>position : relative ;</h1>
+        <p class="R">Red</p>
+        <p class="G">Green</p>
+        <p class="R">Red</p>
+        <p class="R">Red</p></section>
+    <section id="posAbsolute">
+        <h1>position : absolute ;</h1>
+        <p class="R">Red</p>
+        <p class="G">Green</p>
+        <p class="R">Red</p>
+        <p class="R">Red</p>
+    </section>
+</containor>
+<containor id="alimin">
+    <h1 class="anawin">flex-direction:;</h1>
+    <section id="mainfdc">
+        <h2 class="anawin">column</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">cccccccccc</p>
+    </section>
+    <section id="mainfdcr">
+        <h2 class="anawin">column-reverse</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">ccccccccc</p>
+    </section>
+    <section id="row">
+        <h2 class="anawin">row</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">ccccccccc</p>
+    </section>
+    <section id="flexDCR">
+        <h2 class="anawin">row-reverse</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">cccccc</p>
+    </section>
+</containor>
+<h1 class="anawin">justify-content: ;</h2>
+<main id="justi">
+    <section id="flexstart">
+        <h2 class="anawin">flex-start</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">ccbbbbbbcc</p>
+    </section>
+    <section id="flexend">
+        <h2 class="anawin">flex-end</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbbb</p>
+        <p class="bnbn">cccccc</p>
+    </section>
+    <section id="center">
+        <h2 class="anawin">center</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbcc</p>
+        <p class="bnbn">ccbbbbbbcc</p>
+    </section>
+    <section id="spbet">
+        <h2 class="anawin">space-between</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbbbcc</p>
+        <p class="bnbn">ccbbbbbbcc</p>
+    </section>
+    <section id="spar">
+        <h2 class="anawin">space-around</h2>
+        <p class="bnbn">aaaaaaaa</p>
+        <p class="bnbn">bbbbbbcc</p>
+        <p class="bnbn">ccbbbbbbcc</p>
+    </section>
+</main>
+</table>
+<h1 class="anawin">Cool animations :</h1>
+<p>@keyframes <span> Shaker</span>{</br>
+ㅤㅤ    0%{</br>
+    ㅤㅤ    transform: rotate(0deg);</br>
+    ㅤㅤ}</br>
+    ㅤㅤ25%{</br>
+    ㅤㅤ    transform: rotate(-8deg);</br>
+    ㅤㅤ}</br>
+    ㅤㅤ50%{</br>
+    ㅤㅤ    transform: rotate(8deg);</br>
+    ㅤㅤ}</br>
+    ㅤㅤ75%{</br>
+    ㅤㅤ    transform: rotate(-8deg);</br>
+    ㅤㅤ}</br>
+    ㅤㅤ100%{</br>
+    ㅤㅤㅤㅤtransform: rotate(0deg);</br>
+    }</p>
+    <nav id="but">
+        <h1 class="anawin">Cool Button Hacks:</h1>
+        <p>.<span>Button</span>{</br>
+        ㅤㅤbackground-color: rgb(95, 80, 80);</br>
+        ㅤㅤborder: 4px solid #708371;</br>
+        ㅤㅤfont-family: Verdana, Geneva, Tahoma, sans-serif;</br>
+        ㅤㅤpadding: 10px 15px;</br>
+        ㅤㅤtext-align: center;</br>
+        ㅤㅤfont-size: 20px;</br>
+        ㅤㅤmargin: 0 15px;</br>
+        ㅤㅤcursor: pointer;</br>
+        ㅤㅤtransition: all 0.3s ease;</br>
+    ㅤㅤ}</br>
+    ㅤㅤ.<span>Button</span>:hover{</br>
+        ㅤㅤbackground-color: gray;</br>
+        ㅤㅤcolor: white;</br>
+        ㅤㅤbox-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);</br>
+    ㅤㅤ}</br>
+    ㅤㅤ.<span>Button</span>:active{</br>
+        ㅤㅤtransform: translateY(4px);</br>
+    }</p></nav>
+    <h1 class="anawin">Curser actions :</h1>
+    <p id="pointer"><span> cursor:</span> pointer; <button>█</button></p>
+    <p id="nota"><span> cursor:</span>: not-allowed; <button>█</button></p>
+    <p id="cross"><span> cursor:</span> crosshair; <button>█</button></p>
+    <p id="move"><span> cursor:</span> move; <button>█</button></p>
+    <p id="copy"><span> cursor:</span> copy; <button>█</button></p>
+    <p id="cell"><span> cursor:</span> cell; <button>█</button></p>
+    <p id="help"><span> cursor:</span> help; <button>█</button></p>
+    <p id="wait"><span> cursor:</span> wait; <button>█</button></p>
+    <p id="nodrp"><span> cursor:</span> no-drop; <button>█</button></p>
+</body>
+</html>
